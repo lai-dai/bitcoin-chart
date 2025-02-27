@@ -73,7 +73,7 @@ export function BitcoinChart(props: ChartComponentProps) {
 
   const resizeObserver = React.useRef<ResizeObserver>();
 
-  const { theme: mode } = useTheme();
+  const { theme: mode = "dark" } = useTheme();
   const [currentTheme, setCurrentTheme] = React.useState("1");
 
   const getModeColor = React.useCallback(

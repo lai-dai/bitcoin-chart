@@ -17,9 +17,9 @@ Xây dựng một biểu đồ hiển thị dữ liệu Bitcoin gồm hai loại
 
 ## 📌 Thư Viện & API Tham Khảo
 
-- 🔗 Dữ liệu giá Bitcoin: CoinMarketCap
-- 📈 Thư viện vẽ biểu đồ: lightweight-charts
-- 🔥 API lấy dữ liệu từ Binance: Binance API Docs
+- 🔗 Dữ liệu giá Bitcoin: [CoinMarketCap](https://coinmarketcap.com/currencies/bitcoin/)
+- 📈 Thư viện vẽ biểu đồ: [lightweight-charts](https://www.npmjs.com/package/lightweight-charts)
+- 🔥 API lấy dữ liệu từ Binance: [Binance API Docs](https://github.com/minh6825/api-binance/blob/main/README.md)
 
 ## ⚡ Yêu Cầu Kỹ Thuật
 

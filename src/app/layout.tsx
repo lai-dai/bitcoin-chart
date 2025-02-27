@@ -23,7 +23,7 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <QueryClientProvider>
             <div className="max-w-screen overflow-x-hidden pt-14">
               <div className="fixed inset-x-0 top-0 z-10 border-b">
