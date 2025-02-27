@@ -5,12 +5,13 @@ const config = {
     "project": true
   },
   "plugins": [
-    "@typescript-eslint"
+    "@typescript-eslint",
   ],
   "extends": [
     "next/core-web-vitals",
     "plugin:@typescript-eslint/recommended-type-checked",
-    "plugin:@typescript-eslint/stylistic-type-checked"
+    "plugin:@typescript-eslint/stylistic-type-checked",
+    "plugin:@tanstack/query/recommended"
   ],
   "rules": {
     "@typescript-eslint/array-type": "off",
@@ -36,7 +37,9 @@ const config = {
           "attributes": false
         }
       }
-    ]
+    ],
+    "@tanstack/query/exhaustive-deps": "error",
+    "@typescript-eslint/ban-ts-comment": "off"
   }
 }
 module.exports = config;
