@@ -1,29 +1,30 @@
-# Create T3 App
+# Bài Test Đầu Vào Intern ReactJS (Ưu tiên Next.js & TypeScript)
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+## 📝 Yêu Cầu
 
-## What's next? How do I make an app with this?
+Xây dựng một biểu đồ hiển thị dữ liệu Bitcoin gồm hai loại chart:
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+- Biểu đồ nến (Candlestick Chart)
+- Biểu đồ khối lượng giao dịch (Volume Chart)
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## 🎯 Chức Năng Cần Có
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+✅ Hỗ trợ chế độ sáng/tối (Dark & Light Theme).
+✅ Biểu đồ khối lượng không cao quá 30% so với tổng chiều cao chart.
+✅ Hỗ trợ kéo trái để xem dữ liệu cũ hơn (On mouse drag left).
+✅ Hỗ trợ nhiều khung thời gian: 1m, 5m, 30m, 1h, 4h, 1d, ... (càng nhiều càng tốt).
+✅ Button lấy giá Bitcoin hiện tại và giá cách đây 1 phút.
 
-## Learn More
+## 📌 Thư Viện & API Tham Khảo
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+- 🔗 Dữ liệu giá Bitcoin: CoinMarketCap
+- 📈 Thư viện vẽ biểu đồ: lightweight-charts
+- 🔥 API lấy dữ liệu từ Binance: Binance API Docs
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+## ⚡ Yêu Cầu Kỹ Thuật
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+- Sử dụng Next.js và TypeScript để được đánh giá cao.
+- Code sạch, dễ đọc, có chú thích nếu cần.
+- Hỗ trợ responsive trên cả desktop & mobile.
 
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+`💡 Tips: Nếu làm tốt, bạn có thể thêm tính năng tùy chỉnh màu sắc, lưu dữ liệu cache để tránh gọi API nhiều lần, hoặc tối ưu hiệu suất render chart! 🚀
